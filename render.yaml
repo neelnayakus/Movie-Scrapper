@@ -2,7 +2,7 @@ services:
   - type: cron
     name: multimovies-scraper
     runtime: python
-    repo: https://github.com/neelnayakus1990/Movie-Scrapper
+    repo: https://github.com/neelnayakus/Movie-Scrapper
     buildCommand: ""
     startCommand: python multimovies_scraper.py
     schedule: "@daily"
